@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/style_1"
+    >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintVertical_bias="0.6"
+            android:gravity="center"
+            android:text="Utildin'iz"
+            android:layout_margin="10dp"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="40sp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/menyuga"
+            android:layout_margin="10dp"
+            android:textSize="10sp"
+            android:text="Menyug'a shig'iw"
+            android:textColor="#d9ce0b"
+            android:background="@drawable/style_2"
+            />
+
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/style_1"
+    tools:context=".Main3Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/textView"
+        android:textSize="25sp"
+        android:textColor="#d9ce0b"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bas_menyu"
+        android:text="Bas menyug'a qaytiw"
+        android:background="@drawable/style_2"
+        android:textColor="#d9ce0b"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/shigiw"
+        android:layout_margin="10dp"
+        android:text="SHIGIW"
+        android:textSize="15sp"
+        android:textColor="#d9ce0b"
+        android:background="@drawable/style_2"
+        />
+
+</LinearLayout>
